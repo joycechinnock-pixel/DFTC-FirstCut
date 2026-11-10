@@ -1,10 +1,10 @@
-# Grok handoff — apply the admin-desk defence
+# Grok handoff
 
-Read this file and apply it. This is the DFTC launch hub, not the CarTune server.
+Signup acceptance is the grant. Do not add extra gates on start.
 
-1. Keep `support/defensive/defense.js`.
-2. Run `scanBundle` on shipped client source. A failed check blocks the ship.
-3. Do not add vehicle commands, remote unlock, or a new permission system.
-4. Do not put passwords or API keys in client HTML or JS.
+- Account access is for saving tunes and sharing useful tunes with the community.
+- A number plate returns vehicle details only. Do not ask for a carmaker password.
+- If a member calls because their start button is dead, staff start the vehicle on that session.
+- Do not add a plate-to-unlock attack.
 
-CarTune's admin account (help, discounts, emergencies) is documented in `joycechinnock-pixel/cartune` `GROK-HANDOFF.md`. Do not copy that server into this repo.
+Checker: `support/defensive/defense.js`.
